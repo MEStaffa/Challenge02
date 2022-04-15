@@ -1,0 +1,64 @@
+/*#irl{
+    display: flex;
+    width: 291px;
+    height: 180px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    visibility: visible;
+}*/
+
+.third {
+    flex: 1 1 33%;
+}
+
+.ireland {
+    display: flex;
+    width: 291px;
+    height: 180px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2); 
+    position: absolute;
+    
+}
+
+.ireland .left {
+    background-color: green;
+}
+
+.ireland .center {
+    background-color: white;
+}
+
+.ireland .right {
+    background-color: orange;
+}
+
+.france{
+    display: flex;
+    width: 291px;
+    height: 180px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    position: absolute;
+    visibility: hidden;
+    
+}
+
+.france .left {
+    background-color: blue;
+}
+
+.france .center {
+    background-color: white;
+}
+
+.france .right {
+    background-color: red;
+}
+
+
+
+.btn {
+    margin-top: 200px;
+}
